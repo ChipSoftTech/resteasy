@@ -1,0 +1,32 @@
+{
+  "name": "resteasy-zero-config",
+  "version": "1.2.0",
+  "description": "Zero-config file-based REST API database",
+  "keywords": [
+    "REST",
+    "Database"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chipsofttech/resteasy.git"
+  },
+  "author": "Brian Carter",
+  "license": "MIT",
+  "bin": {
+    "resteasy": "bin/resteasy"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.4"
+  }
+}
