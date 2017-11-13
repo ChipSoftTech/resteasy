@@ -1,17 +1,16 @@
-# RestEasy
+# Resty
 A small, zero-config, file-based REST API database.
 
 ## Install
-- **Global install**: `npm install cst-resteasy -g` _(and prefix `sudo` if required)_
-- **Local install**: `npm install cst-resteasy --save-dev`
+- **Local install**: `npm install`
 
 ## Usage
-If you installed it globally, just type `resteasy` and pass any command-line parameter (see below). If you installed it locally, type `node_modules/.bin/resteasy`.
+- node src/server.js
 
 Data is stored in JSON files, one file per path. For example, all requests to `/api/users` will read and update from users.json.
 
 ### Usage example
-1. Start server, storing files in the `json` directory: `resteasy --data json`.
+1. Start server, storing files in the `json` directory: `resty --data json`.
 2. Add a record from the command line: `curl http://localhost:3000/api/users -H "Content-Type: application/json" -d '{ "name": "Luis", "password": "mypw" }' -X POST`
 3. Query all records from the command line: `curl http://localhost:3000/api/users`
 

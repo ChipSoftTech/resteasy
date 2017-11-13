@@ -8,12 +8,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chipsofttech/resteasy.git"
+    "url": "git+https://github.com/chipsofttech/resty.nodejs.git"
   },
   "author": "Brian Carter",
   "license": "MIT",
   "bin": {
-    "resteasy": "bin/resteasy"
+    "resty": "bin/resty"
   },
   "scripts": {
     "build": "tsc"
